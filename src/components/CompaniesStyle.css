@@ -1,0 +1,24 @@
+/* CompaniesStyle.css */
+
+/* Style for the container section */
+.c-wrapper {
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; /* Distribute space between images */
+    padding: 10px; /* Add padding between the images */
+  }
+  
+  /* Style for each individual image */
+  .c-wrapper img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: auto; /* Push each image to the right */
+    margin-right: auto; /* Push each image to the left */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .c-wrapper img {
+      width: 50px; /* Adjust the width for smaller screens */
+    }
+}
+  

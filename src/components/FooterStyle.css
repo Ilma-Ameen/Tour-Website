@@ -1,0 +1,39 @@
+.bottom {
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px; /* Add padding to all sides */
+  }
+  
+  .center-footer {
+    margin: 0 auto; /* Center the footer */
+    max-width: 1200px; /* Set a maximum width to center content */
+  }
+  
+  .bottom h4 {
+    font-size: 18px;
+    margin: 10px 0; /* Add vertical margin for spacing */
+  }
+  
+  .bottom a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 16px; /* Decrease font size for more padding in between */
+    margin: 8px 0; /* Add vertical margin for spacing */
+  }
+  
+  .bottom p {
+    margin: 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .bottom {
+      flex-direction: column;
+      align-items: center; /* Center items vertically on smaller screens */
+    }
+  }
+  
